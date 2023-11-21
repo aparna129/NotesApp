@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+}
+.body {
+  display: flex;
+}
+.leftside {
+  height: 100%;
+  min-height: 100vh;
+  width: 600px;
+  overflow: auto;
+}
+.left-heading {
+  margin-left: 25px;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.btn {
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  padding: 2% 3%;
+  width: 70%;
+  margin-top: 25px;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.rightside {
+  background-color: #f7ecdc;
+  margin-left: 25px;
+  height: 100%;
+  min-height: 100vh;
+  width: 1500px;
+  overflow: hidden;
+}
+.centerimg {
+  height: 40%;
+  width: 50%;
+  margin: 15% 25%;
+}
+.pocket-notes {
+  text-align: center;
+  margin-top: -17%;
+  font-weight: 400;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+}
+.text1 {
+  text-align: center;
+  margin-top: 2%;
+  font-family: "Roboto", sans-serif;
+}
+.text2 {
+  text-align: center;
+  margin-top: 0.5%;
+  font-family: "Roboto", sans-serif;
+}
+.text3 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 1%;
+  font-family: "Roboto", sans-serif;
+}
+/* Mobile styles (default) */
+.box {
+  margin: 10% auto;
+  height: 80%;
+  width: 90%;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .box {
+    margin: 5% auto;
+    height: 70%;
+    width: 50%;
+  }
+  .boxtext1 {
+    font-size: 40px;
+  }
+  .boxtext2, .boxtext3 {
+    font-size: 30px;
+  }
+  .input {
+    width: 70%;
+    font-size: 20px;
+  }
+  .circle1, .circle2, .circle3, .circle4, .circle5, .circle6 {
+    height: 50px;
+    width: 50px;
+    margin-top: -50px;
+  }
+  .boxcreatebutton {
+    font-size: 20px;
+  }
+}
+
+.notes-style {
+  overflow: auto;
+}
+.notes-name-with-icon {
+  display: flex;
+  margin-bottom: 15px;
+}
+.note-names {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.icon-txt {
+  padding-left: 8px;
+  padding-top: 9px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+.titleofnote {
+  height: 60px;
+  width: 900px;
+  background-color: #e8e8e8;
+}
+.notes-storing-area {
+  height: 400px;
+  width: 900px;
+  background-color: #f7ecdc;
+}
+.lastbox {
+  background-color: #e8e8e8;
+  height: 180px;
+  width: 900px;
+}
+.notes-input {
+  background-color: white;
+  height: 120px;
+  width: 830px;
+  margin-left: 28px;
+  margin-top: 35px;
+  border: none;
+  border-radius: 15px;
+  color: #9a9a9a;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 15px;
+  padding-top: -20px;
+}

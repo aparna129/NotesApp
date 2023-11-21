@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+}
+.body {
+  display: flex;
+}
+.leftside {
+  height: 100%;
+  min-height: 100vh;
+  width: 600px;
+  overflow: auto;
+}
+.left-heading {
+  margin-left: 25px;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.btn {
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  padding: 2% 3%;
+  width: 70%;
+  margin-top: 25px;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.rightside {
+  background-color: #f7ecdc;
+  margin-left: 25px;
+  height: 100%;
+  min-height: 100vh;
+  width: 1500px;
+  overflow: hidden;
+}
+.centerimg {
+  height: 40%;
+  width: 50%;
+  margin: 15% 25%;
+}
+.pocket-notes {
+  text-align: center;
+  margin-top: -17%;
+  font-weight: 400;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+}
+.text1 {
+  text-align: center;
+  margin-top: 2%;
+  font-family: "Roboto", sans-serif;
+}
+.text2 {
+  text-align: center;
+  margin-top: 0.5%;
+  font-family: "Roboto", sans-serif;
+}
+.text3 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 1%;
+  font-family: "Roboto", sans-serif;
+}
+.box {
+  margin-left: 25%;
+  margin-top: -450px;
+  margin-right: 200px;
+  margin-bottom: 20%;
+  height: 60%;
+  width: 50%;
+  background-color: white;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid black;
+  overflow: auto;
+}
+.boxtext1 {
+  margin-left: 35px;
+  margin-top: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.boxtext2 {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.input {
+  margin-left: 30px;
+  margin-top: -30px;
+  border-radius: 25px;
+  width: 45%;
+  padding: 1%;
+  padding-left: 25px;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #cccccc;
+}
+.boxtext3 {
+  margin-left: 50px;
+  margin-top: 35px;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.circles {
+  display: inline;
+}
+.circle1 {
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  background-color: #b38bfa;
+  margin-left: 30%;
+  margin-top: -30px;
+}
+.circle2 {
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  background-color: #ff79f2;
+  margin-left: 38%;
+  margin-top: -35px;
+}
+.circle3 {
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  background-color: #43e6fc;
+  margin-left: 46%;
+  margin-top: -35px;
+}
+.circle4 {
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  background-color: #f19576;
+  margin-left: 54%;
+  margin-top: -35px;
+}
+.circle5 {
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  background-color: #0047ff;
+  margin-left: 62%;
+  margin-top: -35px;
+}
+.circle6 {
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  background-color: #6691ff;
+  margin-left: 70%;
+  margin-top: -35px;
+}
+.btn2 {
+  text-align: right;
+}
+.boxcreatebutton {
+  width: 20%;
+  padding: 1% 1%;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+}
+.notes-style {
+  overflow: auto;
+}
+.notes-name-with-icon {
+  display: flex;
+  margin-bottom: 15px;
+}
+.note-names {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.icon-txt {
+  padding-left: 8px;
+  padding-top: 9px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+.titleofnote {
+  height: 69px;
+  width: 900px;
+  background-color: #e8e8e8;
+}
+.notes-storing-area {
+  height: 400px;
+  width: 900px;
+  background-color: #f7ecdc;
+}
+.lastbox {
+  background-color: #e8e8e8;
+  height: 180px;
+  width: 900px;
+}
+.notes-input {
+  background-color: white;
+  height: 120px;
+  width: 830px;
+  margin-left: 28px;
+  margin-top: 35px;
+  border: none;
+  border-radius: 15px;
+  color: #9a9a9a;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 15px;
+  padding-top: -20px;
+}
+.note-name-in-title {
+  margin-left: 60px;
+  margin-top: -30px;
+  color: black;
+}
+.icon {
+  margin-top: 0px;
+  position: absolute;
+}
+.stored-note {
+  margin-top: -550px;
+}
+.new-note{
+  margin-top: ;
+}
